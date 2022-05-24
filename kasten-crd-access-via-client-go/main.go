@@ -202,7 +202,7 @@ spec:
     type: ObjectStore
     objectStore:
       endpoint: https://cos.ap-chengdu.myqcloud.com
-      name: kasten-1257130361
+      name: kasten-XXXXX
       objectStoreType: S3
       region: ap-chengdu`
 		ct, err := updateProfileWithYaml(client, "kasten-io", updateData)
@@ -231,7 +231,7 @@ spec:
     type: ObjectStore
     objectStore:
       endpoint: https://cos.ap-chengdu.myqcloud.com
-      name: kasten-1257130361
+      name: kasten-XXXXXX
       objectStoreType: S3
       region: ap-chengdu`
 		fmt.Printf(createData)
